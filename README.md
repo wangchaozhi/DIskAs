@@ -61,10 +61,10 @@ cmake .. && make
 
 ```bash
 # 一键编译
-./docker-build.sh
+./docker/docker-build.sh
 
 # 测试
-./docker-test.sh
+./docker/docker-test.sh
 
 # 查看结果
 ls -lh build-linux/DiskAS
@@ -179,6 +179,21 @@ ls -lh build-linux/DiskAS
 
 ### utils - 工具函数模块
 提供辅助功能，如进度显示、文件名生成等。
+
+## 📚 文档
+
+- **[README.md](README.md)** - 项目主文档（你正在阅读）
+- **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** - 架构设计文档
+- **[docs/DOCKER_BUILD.md](docs/DOCKER_BUILD.md)** - Docker 编译指南
+
+## 🐳 Docker 文件
+
+所有 Docker 相关文件位于 `docker/` 目录：
+- `Dockerfile` - Docker 镜像定义
+- `docker-build.sh` - 编译脚本
+- `docker-shell.sh` - 进入容器
+- `docker-test.sh` - 运行测试
+- `docker-clean.sh` - 清理资源
 
 ## 开发计划
 

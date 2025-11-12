@@ -54,7 +54,7 @@ echo ""
 
 # 步骤 1: 构建 Docker 镜像
 print_info "步骤 1/4: 构建 Docker 镜像..."
-if docker build -t ${IMAGE_NAME}:${IMAGE_TAG} . ; then
+if docker build -t ${IMAGE_NAME}:${IMAGE_TAG} -f docker/Dockerfile . ; then
     print_info "Docker 镜像构建成功: ${IMAGE_NAME}:${IMAGE_TAG}"
 else
     print_error "Docker 镜像构建失败"

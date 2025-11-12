@@ -16,7 +16,7 @@ echo ""
 # 检查镜像是否存在
 if ! docker image inspect ${IMAGE_NAME}:${IMAGE_TAG} &> /dev/null; then
     echo "Docker 镜像不存在，正在构建..."
-    docker build -t ${IMAGE_NAME}:${IMAGE_TAG} .
+    docker build -t ${IMAGE_NAME}:${IMAGE_TAG} -f docker/Dockerfile .
 fi
 
 echo "启动容器..."
