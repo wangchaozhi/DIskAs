@@ -1,1 +1,0 @@
-/usr/bin/gcc -O3 -DNDEBUG CMakeFiles/DiskAS.dir/src/disk_io.c.o CMakeFiles/DiskAS.dir/src/signature.c.o CMakeFiles/DiskAS.dir/src/file_system.c.o CMakeFiles/DiskAS.dir/src/scanner.c.o CMakeFiles/DiskAS.dir/src/recovery.c.o CMakeFiles/DiskAS.dir/src/utils.c.o CMakeFiles/DiskAS.dir/main.c.o -o DiskAS 

@@ -195,6 +195,16 @@ ls -lh build-linux/DiskAS
 - `docker-test.sh` - 运行测试
 - `docker-clean.sh` - 清理资源
 
+## 📜 脚本文件
+
+测试和辅助脚本位于 `scripts/` 目录：
+- `test_example.sh` - macOS 测试脚本
+
+## 🔧 CMake 文件
+
+CMake 相关配置位于 `cmake/` 目录：
+- `cmake_uninstall.cmake.in` - 卸载脚本模板
+
 ## 开发计划
 
 - [ ] 支持更多文件系统 (APFS, Btrfs, ZFS)
