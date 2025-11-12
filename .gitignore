@@ -1,0 +1,27 @@
+# 编译产物
+*.o
+*.a
+*.so
+*.dylib
+DiskAS
+
+# 构建目录
+build/
+cmake-build-*/
+.cmake/
+
+# IDE 文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 恢复文件输出
+recovered/
+
+# 测试文件
+test_*.img
+*.img
+

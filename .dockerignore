@@ -1,0 +1,43 @@
+# Git
+.git
+.gitignore
+
+# 构建产物
+build/
+build-*/
+cmake-build-*/
+*.o
+*.a
+*.so
+DiskAS
+main.o
+src/*.o
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 文档
+*.md
+!README.md
+
+# 测试文件
+test_*.img
+*.img
+test_files/
+recovered/
+
+# Docker
+Dockerfile
+docker-*.sh
+.dockerignore
+diskas-builder-image.tar
+
+# 其他
+*.tar
+*.zip
+

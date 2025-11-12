@@ -1,0 +1,10 @@
+/workspace/DiskAS/build-linux/CMakeFiles/DiskAS.dir
+/workspace/DiskAS/build-linux/CMakeFiles/uninstall.dir
+/workspace/DiskAS/build-linux/CMakeFiles/package.dir
+/workspace/DiskAS/build-linux/CMakeFiles/package_source.dir
+/workspace/DiskAS/build-linux/CMakeFiles/edit_cache.dir
+/workspace/DiskAS/build-linux/CMakeFiles/rebuild_cache.dir
+/workspace/DiskAS/build-linux/CMakeFiles/list_install_components.dir
+/workspace/DiskAS/build-linux/CMakeFiles/install.dir
+/workspace/DiskAS/build-linux/CMakeFiles/install/local.dir
+/workspace/DiskAS/build-linux/CMakeFiles/install/strip.dir
